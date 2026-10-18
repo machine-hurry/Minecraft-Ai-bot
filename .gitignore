@@ -1,0 +1,7 @@
+node_modules/
+.env
+logs/
+*.log
+.npm-cache/
+.npm-logs/
+.test-server/

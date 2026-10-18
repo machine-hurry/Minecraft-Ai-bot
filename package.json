@@ -1,0 +1,21 @@
+{
+  "name": "mc-deepseek-player",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DeepSeek 驱动的 AI 玩家：以真实玩家身份加入 Minecraft Java 版（Fabric 存档可直接用）",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "ping": "node scripts/ping.js",
+    "selftest": "node scripts/selftest.js",
+    "test": "node test/brain.test.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.20.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "vec3": "^0.1.10"
+  }
+}
